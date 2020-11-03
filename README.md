@@ -17,5 +17,5 @@ Using the dataset from above, run a t-test to compare the average departure dela
 
 ## 2. (4 points)
 
-Use PROC SQL to return the total number of the homeruns hit in each year. 
+Use PROC SQL and the player dataset to return the total number of players born in MT each year. Note you did this earlier in the class with R.
 
