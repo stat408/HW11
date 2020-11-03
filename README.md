@@ -1,18 +1,21 @@
 # HW11
 
+Use SAS On Demand and turn in your program summary of the SAS script.
+You will need the following libname statement.
+```
+LIBNAME STAT408 "/courses/d716b355ba27fe300";
+```
 
-This HW is worth 12 points. Please turn in your .RMD code and a compiled document (HTML/DOC/PDF).
+### Q1.  (6 points)
 
-## 1. (4 points)
+#### a. (3 points)
+Access the planes dataset, create and print a dataset with only the flights to SLC and DEN.
 
-Select three movies from the imdb website. Scrape the title and storyline.
-
+#### b. t-test (3 points)
+Using the dataset from above, run a t-test to compare the average departure delay for SLC and DEN.
 
 
 ## 2. (4 points)
 
-Write a SQL script to return the total number of the homeruns hit in each year. (This will require setting up a SQLite database with the baseball files)
+Use PROC SQL to return the total number of the homeruns hit in each year. 
 
-## 3. (4 points)
-
-Write a SQL script to return the total number of the homeruns hit by players born in MT.
